@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<div class="banner">
+    <img src="./img/BANNER.jpg">
+</div>
+
+<body>
+    <div class="container">
+        <form id="formAlumnos">
+            <h3>Presentación de Los Estudiantes</h3>
+            <div class="mb-3">
+                <label for="nombreAlumno" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombreAlumno" name="nombre">
+            </div>
+            <div id="formAlumnos">
+                <div class="mb-3">
+                    <label for="descripcionAlumno" class="form-label">Información Personal</label>
+                    <input type="text" class="form-control" id="descripcionAlumno" name="descripcion">
+                </div>
+                <button id="botoncorrecto" type="submit" class="btn btn-primary">Enviar Información</button>
+        </form>
+    </div> <br><br>
+
+    <button id="botonAlumnos" class="btn btn-dark">Mostrar Estudiantes</button> <br> <br>
+    <div id="divAlumnos" class="row"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.26/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
